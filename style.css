@@ -71,7 +71,7 @@ img{
 .container >h1{
     color: var(--white);
 }
-.container >h3{
+.container >h2{
     color: var(--green);
     margin-top: 2px;
 }
