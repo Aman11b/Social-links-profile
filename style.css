@@ -53,12 +53,11 @@ img{
     display: flex;
     flex-direction: column;
 
-    justify-content: center;
     align-items: center;
-    gap: 10px;
+
 }
 .avatar_image{
-    padding: 20px;
+    padding: 30px;
 }
 
 .avatar_image>img{
@@ -66,10 +65,46 @@ img{
     width: 80px;
 }
 
-button{
+.container >h1{
+    color: var(--white);
+}
+.container >h3{
+    color: var(--green);
+    margin-top: 2px;
+}
+.container >p{
+    margin-top: 20px;
+    color: var(--white);
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    margin: 25px 0;
+    margin-bottom: 35px;
+}
+
+.buttons>button{
     background-color: var(--grey-700);
     color: var(--white);
 
     width: 80%;
+
+    height: 35px;
+
+    border: none;
+    border-radius: 7px;
+}
+
+.buttons>button:hover{
+    background-color: var(--green);
+    color: var(--grey-900);
 }
 
